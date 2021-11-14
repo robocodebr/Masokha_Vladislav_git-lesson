@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    background-color: rgb(35, 199, 199);
+}
+form {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+input[type="search"] {
+    width: 75%;
+    padding: 10px 15px;
+    font-size: 25px;
+    border: none;
+    border-radius: 50px 10px 10px 50px;
+    margin-right: 10px;
+}
+input[type="submit"] {
+    border-radius: 10px 50px 50px 10px;
+    border: none;
+    background-color: #fcfcef;
+    padding: 10px;
+}
+
+#card {
+    display: flex;
+    background-color: #fff;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 10px;
+}
